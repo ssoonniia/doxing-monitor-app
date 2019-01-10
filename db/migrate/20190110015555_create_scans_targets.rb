@@ -10,6 +10,7 @@ class CreateScansTargets < ActiveRecord::Migration[5.2]
       t.integer :zip
       t.text :names_of_loved_ones
 
+      
       t.timestamps
     end
   end
